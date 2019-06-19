@@ -1,0 +1,246 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../images/xingkongbeijing.jpg");
+   position:relative;
+}
+.desk{
+    width:2.54rem;
+    height:2.66rem;
+    right:50%;
+    top:2rem;
+    margin-right:-1.27rem;
+}
+
+.zhi{
+    width:2.54rem;
+    height:0.7rem;
+    left:2.4rem;
+    top:8rem;
+}
+
+.shiqu{
+    width:1.33rem;
+    height:0.34rem;
+    right:3.2rem;
+    top:9rem;
+}
+
+
+
+
+
+
+
+
+
+
+.page5>img{
+    position:absolute;
+}
+.page5{
+   background:url("../images/xingkongbeijing.jpg");
+   position:relative;
+}
+.zuopinyi{
+    width:8.04rem;
+    height:11.652rem;
+    left:-0.25rem;
+    top:0.8rem;
+}
+.zuopiner{
+    width:3.24rem;
+    height:5.304rem;
+    right:0.35rem;
+    top:1rem;
+}
+.zuopinsan{
+    width:3.24rem;
+    height:5.304rem;
+    left:0.35rem;
+    bottom:1rem;
+}
+.zuopinsi{
+    width:3.24rem;
+    height:5.304rem;
+    right:0.35rem;
+    bottom:1rem;
+}
+
+
+.page6>img{
+    position:absolute;
+}
+.page6{
+   background:url("../images/xingkongbeijing.jpg");
+   position:relative;
+}
+.zuopinwu{
+    width:8.04rem;
+    height:11.652rem;
+    left:-0.25rem;
+    top:0.8rem;
+}
+.zuopinliu{
+    width:3.24rem;
+    height:5.304rem;
+    right:0.35rem;
+    top:1rem;
+}
+.zuopinqi{
+    width:3.24rem;
+    height:5.304rem;
+    left:0.35rem;
+    bottom:1rem;
+}
+.zuopinba{
+    width:3.24rem;
+    height:5.304rem;
+    right:0.35rem;
+    bottom:1rem;
+}
+
+.page7>img{
+    position:absolute;
+}
+.page7{
+   background:url("../images/xingkongbeijing.jpg");
+   position:relative;
+}
+.zuopinjiu{
+    width:8.04rem;
+    height:11.652rem;
+    left:-0.25rem;
+    top:0.8rem;
+}
+.zuopinshi{
+    width:3.24rem;
+    height:5.304rem;
+    right:0.35rem;
+    top:1rem;
+}
+.zuopinshiyi{
+    width:3.24rem;
+    height:5.304rem;
+    left:0.35rem;
+    bottom:1rem;
+}
+.zuopinshier{
+    width:3.24rem;
+    height:5.304rem;
+    right:0.35rem;
+    bottom:1rem;
+}
+
+.page8>img{
+    position:absolute;
+}
+.page8{
+   background:url("../images/xingkongbeijing.jpg");
+   position:relative;
+}
+.zuopinshisan{
+    width:8.04rem;
+    height:11.652rem;
+    left:-0.25rem;
+    top:0.8rem;
+}
+.zuopinshisi{
+    width:3.24rem;
+    height:5.304rem;
+    right:0.35rem;
+    top:1rem;
+}
+.zuopinshiwu{
+    width:3.24rem;
+    height:5.304rem;
+    left:0.35rem;
+    bottom:1rem;
+}
+.zuopinshiliu{
+    width:3.24rem;
+    height:5.304rem;
+    right:0.35rem;
+    bottom:1rem;
+}
+
+
+.page10>img{
+    position:absolute;
+}
+.page10{
+   background:url("../images/xingkongbeijing.jpg");
+   position:relative;
+}
+.theend{
+    width:3.45rem;
+    height:0.69rem;
+    top:50%;
+    left:50%;
+    margin-left:-1.725rem;
+    margin-top:-0.345rem;
+}
+/*.music{
+   width:1rem;
+   height:1rem;
+   background:url("../images/1.jpg") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: xuanzhuan 2s linear infinite;
+
+}*/
